@@ -1,0 +1,13 @@
+{
+    "name": "DOTweenEx",
+    "references": [
+        "SystemEx",
+        "MathEx",
+        "MathEx.UnityEngine",
+        "UnityEngineEx"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true
+}
