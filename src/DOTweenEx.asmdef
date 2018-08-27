@@ -1,9 +1,13 @@
 {
     "name": "DOTweenEx",
     "references": [
-        "SystemEx",
+        "DOTween",
+        "DOTween43",
+        "DOTween46",
+        "DOTween50",
         "MathEx",
         "MathEx.UnityEngine",
+        "SystemEx",
         "UnityEngineEx"
     ],
     "optionalUnityReferences": [],
