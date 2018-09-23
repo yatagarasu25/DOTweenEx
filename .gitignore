@@ -1,8 +1,10 @@
 /.vs
 /bin/
+/bin.meta
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
+obj.meta
 
 doc
 
