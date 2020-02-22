@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(SolutionDir)\Common.props" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -63,22 +63,6 @@
     <Compile Include="src\RectTransformEx.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DOTween\_DOTween.Assembly\DOTween43\DOTween43.csproj">
-      <Project>{978c0952-38d0-4c22-b96c-823eafedf0fa}</Project>
-      <Name>DOTween43</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DOTween\_DOTween.Assembly\DOTween46\DOTween46.csproj">
-      <Project>{ac1e5a23-ce58-419c-b165-eb1cd39ab433}</Project>
-      <Name>DOTween46</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DOTween\_DOTween.Assembly\DOTween50\DOTween50.csproj">
-      <Project>{930c3b07-b00a-44b8-a8e5-452a8fd125c7}</Project>
-      <Name>DOTween50</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DOTween\_DOTween.Assembly\DOTween\DOTween.csproj">
-      <Project>{de17c145-3e8d-45d6-bbb6-d06bd7d80a55}</Project>
-      <Name>DOTween</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MathEx\MathEx.csproj">
       <Project>{8d8a06e5-abfb-49a8-851a-070fcf5339aa}</Project>
       <Name>MathEx</Name>

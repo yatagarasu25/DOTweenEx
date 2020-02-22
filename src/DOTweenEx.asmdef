@@ -1,17 +1,19 @@
 {
     "name": "DOTweenEx",
     "references": [
-        "DOTween",
-        "DOTween43",
-        "DOTween46",
-        "DOTween50",
         "MathEx",
         "MathEx.UnityEngine",
         "SystemEx",
-        "UnityEngineEx"
+        "UnityEngineEx",
+        "DOTween.Modules"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": true
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

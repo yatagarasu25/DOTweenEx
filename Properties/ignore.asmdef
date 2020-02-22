@@ -1,21 +1,19 @@
 {
     "name": "3b93a482-7ce0-4103-954d-f501d550d89c",
-    "references": [],
-    "optionalUnityReferences": [
-        "TestAssemblies"
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
     ],
     "includePlatforms": [],
     "excludePlatforms": [
         "Android",
         "Editor",
         "iOS",
-        "LinuxStandalone32",
         "LinuxStandalone64",
-        "LinuxStandaloneUniversal",
+        "Lumin",
         "macOSStandalone",
-        "Nintendo3DS",
         "PS4",
-        "PSVita",
+        "Stadia",
         "Switch",
         "tvOS",
         "WSA",
@@ -24,5 +22,15 @@
         "WindowsStandalone64",
         "XboxOne"
     ],
-    "allowUnsafeCode": false
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
